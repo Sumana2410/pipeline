@@ -17,7 +17,7 @@ pipeline {
         }
         stage('python Execution') {
             steps {
-               bat 'python say.py'
+               bat 'python abc.py'
             }
         }
     }
